@@ -1,34 +1,43 @@
-html {
-  font-family: Helvetica;
+body {
+  font-family: Verdana;
+  background-color: #000;
 }
 
 h1 {
-	font-size: 100px;
-	font-weight: bold;
-	color: khaki;
-	background-image: url("pattern.jpeg");
+	font-size: 50px;
+	font-weight: normal;
+	color: #FFF;
 	text-align: center;
 }
 
 h2 {
-	font-size: 32px;
-	font-weight: bold;
-	color: white;
+	font-size: 42px;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
 }
 
-h2.brushes {
-	background-color: mediumspringgreen;
+.downloadLinks {
+	font-size: 16px;
+	text-align: center;
 }
 
-h2.frames {
-	background-color: lightcoral;
+a:link, a:active, a:hover, a:visited {
+	color: #7FFFD4;
 }
 
-h2.paints {
-	background-color: skyblue;
+p {
+	font-size: 21px;
+	color: #808080;
+	text-align: center;
 }
 
-.price {
-	font-weight: bold;
-	color: blue;
+.elements {
+	align: center;
+}
+
+.footer {
+	font-size: 21px;
+	color: #808080;
+	text-align: right;
 }
