@@ -1,3 +1,6 @@
+/*
+	added font-family and background-color to body element so that they would be inherited by all downstream elements
+*/
 body {
   font-family: Verdana;
   background-color: #000;
@@ -22,6 +25,7 @@ h2 {
 	text-align: center;
 }
 
+/* Used a: to manipulate link color */
 a:link, a:active, a:hover, a:visited {
 	color: #7FFFD4;
 }
@@ -30,10 +34,6 @@ p {
 	font-size: 21px;
 	color: #808080;
 	text-align: center;
-}
-
-.elements {
-	align: center;
 }
 
 .footer {
